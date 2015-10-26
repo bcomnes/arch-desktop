@@ -38,9 +38,12 @@ Some design and notes for running an arch desktop
 **Linux Home:** GPT + XFS
 **Linux Mass Storage:** btrfs
 
-- Mount the Linux Boot Drive
+- Disconnect All Drives except for Windows.  Install Windows normally.
+- Follow the full Arch Guide, referencing beginner's guide for advice.
+- Use GRUB.
+- Mount the Linux Boot Drive as `/`
 - Ensure the Linux Home Drive is mounted at `/home`
-- Create a swapfile after the fact.  Its easier and more flexible, despite some felixbility drawbacks.
+- Create a swapfile after the fact.  Its easier and more flexible, despite some flexibility drawbacks.
 
 ## Installation Links:
 
