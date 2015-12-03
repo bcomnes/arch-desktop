@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Agile1pAgent
+Exec=env WINEPREFIX="/home/bcomnes/.wine" wine Agile1pAgent.exe
+Type=Application
+StartupNotify=true
+Path=/home/bcomnes/.wine/dosdevices/c:/Program Files (x86)/1Password 4
+Icon=C775_1Password.0
